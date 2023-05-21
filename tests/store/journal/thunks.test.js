@@ -7,7 +7,6 @@ describe('Pruebas en Journal Thunks', () => {
 
     const dispatch = jest.fn();
     const getState = jest.fn();
-
     beforeEach(() => jest.clearAllMocks());
 
     test('debe de crear una nueva nota en blanco', async () => {
